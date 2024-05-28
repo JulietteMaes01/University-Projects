@@ -50,7 +50,77 @@ The assignment showcased the importance of parameter selection and optimization 
 * Comparison between 3D and 5D feature vectors highlighted differences in segmentation performance and computational requirements.
 
 ### Second Assignment - Deep Learning for Emotions Recognition
-...
+**Objective**:
+Develop a Convolutional Neural Network (CNN) model to classify emotions from facial expressions in images.
+
+**Description**:
+This assignment involved building a CNN architecture to analyze facial features and categorize them into different emotions (e.g., anger, happiness, surprise). Techniques like data augmentation and transfer learning were explored to enhance model performance.
 
 #### Result Summary
-... 
+We explored various CNN architectures and hyperparameter configurations, achieving an accuracy of 57% (ADAM) and 58% (SGD) on unseen data. The models showed promise in recognizing emotions from real-life videos, highlighting their potential for real-world applications.
+
+## Data Mining
+
+### First Assignment - Regression
+**Objective**:
+The objective of this Regression Lab assignment was to equip us with practical skills in:
+
+* Analyzing and interpreting linear regression models to understand relationships between variables.
+* Building and evaluating regression models using Python libraries like scikit-learn.
+* Employing data visualization techniques to assess model performance and data distribution.
+* Comparing the effectiveness of different regression models (linear vs. polynomial vs. Lasso) for specific tasks.
+* Identifying potential limitations of regression models and exploring alternatives like Lasso regression for feature selection.
+
+**Description**:
+This assignment delves into the world of regression analysis through a series of practical exercises. We were working with a pre-built linear regression model to explore gender bias in salary prediction. Additionally, we were simulating our own data to gain hands-on experience with:
+
+* Data generation using Python libraries.
+* Fitting linear and polynomial regression models.
+* Interpreting model coefficients and evaluating performance using R-squared metric.
+* Understanding the trade-offs involved in using Lasso regression for model fitting.
+
+#### Result Summary
+*Gender Bias Analysis*:
+The model shows a bias favoring females for starting salary when holding other factors constant.
+The interaction term suggests a smaller impact of GPA on female starting salary compared to males.
+
+*Model Fitting & Visualization*:
+Explored linear and polynomial regressions using simulated data.
+Compared model performance using R-squared metric.
+Quadratic term improved model fit for polynomial data.
+
+*LASSO Regression*:
+LASSO models initially underperformed due to feature selection (setting coefficients to zero).
+Tuning the alpha parameter improved performance for both linear and quadratic models.
+
+### Third Assignment - Caravan-Insurance Problem
+**Objective**:
+Assist a Dutch insurance company in targeting potential customers for caravan insurance through direct mail campaigns.
+
+**Tasks**:
+
+* *Identify Ideal Customer*: Analyze customer data (demographics, product usage) to understand characteristics of those with caravan insurance. Utilize techniques like regression, decision trees, and visualizations. Compare different methods for clarity and effectiveness.
+
+* *Target High-Potential Customers*: Employ the most accurate classification model from Assignment 1 to select 800 test samples most likely to own caravan insurance.
+
+
+#### Result Summary
+Analyzed caravan insurance data to identify ideal customers for direct mail campaigns. Built models to predict unlikely non-owners, finding key features like "Number of boat policies." Identified top 800 leads with lowest probability of NOT being interested in caravan insurance.
+
+### Fourth Assignment - Clustering
+**Objective**:
+
+
+**Description**:
+
+#### Result Summary
+
+
+### Fifth Assignment - Apriori Algorithm
+**Objective**:
+
+
+**Description**:
+
+#### Result Summary
+
