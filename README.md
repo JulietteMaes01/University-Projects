@@ -4,11 +4,11 @@ Here are all the different projects that I completed during my Bachelor’s and 
 ## Advanced Concepts of Machine Learning
 
 ### First Assignment - Backpropagation
-For this assignment, we had to implement our own Neural Network without relying on high-level libraries (Keras, TensorFlow, etc.). We implemented backpropagation to produce and train a network with 3 layers: input, hidden, and output. 
+**Objective**:
+Implement a custom Neural Network without relying on high-level libraries to understand the fundamentals of backpropagation.
 
-An example of what to aim for: when the input layer is given `<0,0,0,1,0,0,0,0>` as input, the output to aim for is also `<0,0,0,1,0,0,0,0>`.
-
-We also studied the weights and activations of the hidden nodes of our network to interpret them.
+**Description**:
+The task involves creating a Neural Network architecture with three layers: input, hidden, and output. Backpropagation, a key algorithm for training neural networks, is implemented to adjust the network's weights and biases based on the error between predicted and actual outputs.
 
 #### Result summary
 Our experiments involved varying learning rates (alpha values) and different initialization strategies for weights and biases. We discovered that:
@@ -30,3 +30,27 @@ We trained the some of the models with different values for stride (1 and 2). Ou
  Example:
  Stride=1, Test loss = 0.0054
  Stride=2, Test loss = 0.0445
+
+## Computer Vision
+
+### First Assignment - Image Segmentation
+**Objective**:
+Develop an image segmentation application using the Mean Shift algorithm.
+
+**Description**:
+The Mean Shift algorithm clusters an n-dimensional data set by associating each point with a peak of the data set's probability density. The task involves implementing functions to find peaks and clusters and incorporating speed-ups to improve the algorithm's efficiency.
+
+#### Result Summary
+The assignment showcased the importance of parameter selection and optimization techniques in achieving accurate and efficient image segmentation here are the key findings:
+
+* Implementation of pre-processing steps such as RGB to LAB conversion and feature matrix creation facilitated efficient segmentation.
+* The Mean Shift algorithm, along with optimizations such as the basin of attraction speed-up, demonstrated effective clustering of image data.
+* Evaluation of segmentation performance across different parameter configurations revealed variations in segmentation precision and computational efficiency.
+* Analysis of segmented images provided insights into the impact of radius, threshold, and feature types on segmentation results.
+* Comparison between 3D and 5D feature vectors highlighted differences in segmentation performance and computational requirements.
+
+### Second Assignment - Deep Learning for Emotions Recognition
+...
+
+#### Result Summary
+... 
