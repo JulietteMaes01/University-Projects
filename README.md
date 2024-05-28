@@ -109,18 +109,48 @@ Analyzed caravan insurance data to identify ideal customers for direct mail camp
 
 ### Fourth Assignment - Clustering
 **Objective**:
-
+This assignment focused on exploring K-Means and hierarchical clustering algorithms for data analysis. We had to delve into cluster formation, visualization techniques, and cluster evaluation metrics.
 
 **Description**:
 
-#### Result Summary
+The tasks involved:
+* *Generating data*: Creating simulated data points with distinct clusters using K-Means.
+* *K-Means clustering*: Analyzing cluster formation for varying numbers of clusters (K) and visualizing the results. We also had to evaluate the performance using Sum of Squared Errors (SSE) plot.
+* *Impact of parameters*: Investigating how different standard deviations and random initialization in K-Means affect clustering results.
+* *Hierarchical clustering*: Performing single-link, complete-link, and average-link hierarchical clustering to understand the data structure and identify the most natural grouping.
+* *DBSCAN clustering*: Applying DBSCAN with different parameter settings to explore its effectiveness on a real-world dataset.
 
+
+#### Result Summary
+* **K-Means Clustering**:
+The "elbow method" on the SSE plot identified 4 as the optimal number of clusters for the generated data.
+Higher standard deviation spread the clusters but didn't affect the number of clusters identified by K-Means.
+Different random state values led to slightly different clustering solutions, highlighting the dependence on initialization. KMeans++ can be a less random alternative.
+
+* **Hierarchical Clustering**:
+Max-linkage clustering produced the most biologically sensible hierarchy for the vertebrate data, considering class and feature relationships.
+
+* **DBSCAN Clustering**:
+Parameters significantly impacted cluster formation. A balanced combination of eps and min_samples is crucial for effective noise handling and cluster identification.
 
 ### Fifth Assignment - Apriori Algorithm
-**Objective**:
-
-
-**Description**:
+**Objective and description**:
+This assignment explores the Apriori algorithm, a powerful tool for discovering frequent itemsets and association rules in transactional datasets. By analyzing these patterns, we can gain valuable insights into customer behavior, market trends, and other hidden relationships within the data.
 
 #### Result Summary
 
+The findings were to use Apriori to find patterns (frequent itemsets) in data (T10I4D100K, Mushroom) and then use those patterns to make rules (Team A wins). Lower thresholds find more patterns but take longer. Team A wins more against Team C and is more likely to win at home against Team C than B.
+
+## Signal and Image Processing 
+For this course, different labs for done as assignments. When looking at the matlab scripts, one will know the different tasks that were asked. 
+
+Labs were about the following topics: 
+* Image Analysis
+* Fourier
+* Convolution and Filters
+* Haar
+* Principal Component Analysis
+* Debauchies
+* Shrinkage
+
+  
