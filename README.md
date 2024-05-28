@@ -1,5 +1,5 @@
 # University-Projects
-Here are all the different projects that I completed during my Bachelor’s and Master’s courses at Maastricht University.
+Here are all the different projects that I completed during my Bachelor’s and Master’s courses at Maastricht University. These projects span various domains including Machine Learning, Computer Vision, Data Mining, and Signal and Image Processing, showcasing a diverse set of skills and knowledge acquired throughout my studies.
 
 ## Advanced Concepts of Machine Learning
 
@@ -18,18 +18,19 @@ Our experiments involved varying learning rates (alpha values) and different ini
 * **Accuracy**: Achieved 100% accuracy with a low test loss of 0.0018.
 * **Output**: Model successfully reproduced exact input values, confirming its learning and generalization capabilities.
 
-
 ### Second Assignment - Convolutional Autoencoders
 **Objective**:
 Build an Autoencoder (AE) using deep learning techniques to work with the CIFAR-10 dataset. The tasks involved reconstructing input images and performing colorization.
 
 **Description**:
 The network takes images as input, generates a representation in latent space, and attempts to reconstruct the original image as precisely as possible. This process helps in understanding the encoding and decoding capabilities of autoencoders.
+
 #### Result summary
-We trained the some of the models with different values for stride (1 and 2). Our hypothesis was that using stride 2, the model will miss features from the images, leading to poor results in learning. This expectations were confirmed, and the difference between loss values is almost 10x (of course in favor of training with stride=1).
- Example:
- Stride=1, Test loss = 0.0054
- Stride=2, Test loss = 0.0445
+We trained some of the models with different values for stride (1 and 2). Our hypothesis was that using stride 2, the model will miss features from the images, leading to poor results in learning. This expectation was confirmed, and the difference between loss values is almost 10x (of course in favor of training with stride=1).
+
+* Example:
+  * Stride=1, Test loss = 0.0054
+  * Stride=2, Test loss = 0.0445
 
 ## Computer Vision
 
@@ -41,7 +42,7 @@ Develop an image segmentation application using the Mean Shift algorithm.
 The Mean Shift algorithm clusters an n-dimensional data set by associating each point with a peak of the data set's probability density. The task involves implementing functions to find peaks and clusters and incorporating speed-ups to improve the algorithm's efficiency.
 
 #### Result Summary
-The assignment showcased the importance of parameter selection and optimization techniques in achieving accurate and efficient image segmentation here are the key findings:
+The assignment showcased the importance of parameter selection and optimization techniques in achieving accurate and efficient image segmentation. Here are the key findings:
 
 * Implementation of pre-processing steps such as RGB to LAB conversion and feature matrix creation facilitated efficient segmentation.
 * The Mean Shift algorithm, along with optimizations such as the basin of attraction speed-up, demonstrated effective clustering of image data.
@@ -63,88 +64,67 @@ We explored various CNN architectures and hyperparameter configurations, achievi
 
 ### First Assignment - Regression
 **Objective**:
-The objective of this Regression Lab assignment was to equip us with practical skills in:
-
-* Analyzing and interpreting linear regression models to understand relationships between variables.
-* Building and evaluating regression models using Python libraries like scikit-learn.
-* Employing data visualization techniques to assess model performance and data distribution.
-* Comparing the effectiveness of different regression models (linear vs. polynomial vs. Lasso) for specific tasks.
-* Identifying potential limitations of regression models and exploring alternatives like Lasso regression for feature selection.
+Equip students with practical skills in analyzing and interpreting linear regression models, building and evaluating regression models, and employing data visualization techniques.
 
 **Description**:
-This assignment delves into the world of regression analysis through a series of practical exercises. We were working with a pre-built linear regression model to explore gender bias in salary prediction. Additionally, we were simulating our own data to gain hands-on experience with:
-
-* Data generation using Python libraries.
-* Fitting linear and polynomial regression models.
-* Interpreting model coefficients and evaluating performance using R-squared metric.
-* Understanding the trade-offs involved in using Lasso regression for model fitting.
+This assignment delves into regression analysis through a series of practical exercises. We worked with a pre-built linear regression model to explore gender bias in salary prediction and simulated our own data to gain hands-on experience.
 
 #### Result Summary
-*Gender Bias Analysis*:
-The model shows a bias favoring females for starting salary when holding other factors constant.
-The interaction term suggests a smaller impact of GPA on female starting salary compared to males.
+* **Gender Bias Analysis**:
+  * The model shows a bias favoring females for starting salary when holding other factors constant.
+  * The interaction term suggests a smaller impact of GPA on female starting salary compared to males.
 
-*Model Fitting & Visualization*:
-Explored linear and polynomial regressions using simulated data.
-Compared model performance using R-squared metric.
-Quadratic term improved model fit for polynomial data.
+* **Model Fitting & Visualization**:
+  * Explored linear and polynomial regressions using simulated data.
+  * Compared model performance using R-squared metric.
+  * Quadratic term improved model fit for polynomial data.
 
-*LASSO Regression*:
-LASSO models initially underperformed due to feature selection (setting coefficients to zero).
-Tuning the alpha parameter improved performance for both linear and quadratic models.
+* **LASSO Regression**:
+  * LASSO models initially underperformed due to feature selection (setting coefficients to zero).
+  * Tuning the alpha parameter improved performance for both linear and quadratic models.
 
 ### Third Assignment - Caravan-Insurance Problem
 **Objective**:
 Assist a Dutch insurance company in targeting potential customers for caravan insurance through direct mail campaigns.
 
 **Tasks**:
-
-* *Identify Ideal Customer*: Analyze customer data (demographics, product usage) to understand characteristics of those with caravan insurance. Utilize techniques like regression, decision trees, and visualizations. Compare different methods for clarity and effectiveness.
-
-* *Target High-Potential Customers*: Employ the most accurate classification model from Assignment 1 to select 800 test samples most likely to own caravan insurance.
-
+* Identify Ideal Customer: Analyze customer data to understand characteristics of those with caravan insurance using regression, decision trees, and visualizations.
+* Target High-Potential Customers: Employ the most accurate classification model to select 800 test samples most likely to own caravan insurance.
 
 #### Result Summary
-Analyzed caravan insurance data to identify ideal customers for direct mail campaigns. Built models to predict unlikely non-owners, finding key features like "Number of boat policies." Identified top 800 leads with lowest probability of NOT being interested in caravan insurance.
+Analyzed caravan insurance data to identify ideal customers for direct mail campaigns. Built models to predict unlikely non-owners, finding key features like "Number of boat policies." Identified top 800 leads with the lowest probability of NOT being interested in caravan insurance.
 
 ### Fourth Assignment - Clustering
 **Objective**:
-This assignment focused on exploring K-Means and hierarchical clustering algorithms for data analysis. We had to delve into cluster formation, visualization techniques, and cluster evaluation metrics.
+Explore K-Means and hierarchical clustering algorithms for data analysis, focusing on cluster formation, visualization techniques, and evaluation metrics.
 
 **Description**:
-
-The tasks involved:
-* *Generating data*: Creating simulated data points with distinct clusters using K-Means.
-* *K-Means clustering*: Analyzing cluster formation for varying numbers of clusters (K) and visualizing the results. We also had to evaluate the performance using Sum of Squared Errors (SSE) plot.
-* *Impact of parameters*: Investigating how different standard deviations and random initialization in K-Means affect clustering results.
-* *Hierarchical clustering*: Performing single-link, complete-link, and average-link hierarchical clustering to understand the data structure and identify the most natural grouping.
-* *DBSCAN clustering*: Applying DBSCAN with different parameter settings to explore its effectiveness on a real-world dataset.
-
+The tasks involved generating data, analyzing cluster formation with K-Means, investigating the impact of parameters, performing hierarchical clustering, and applying DBSCAN clustering to a real-world dataset.
 
 #### Result Summary
 * **K-Means Clustering**:
-The "elbow method" on the SSE plot identified 4 as the optimal number of clusters for the generated data.
-Higher standard deviation spread the clusters but didn't affect the number of clusters identified by K-Means.
-Different random state values led to slightly different clustering solutions, highlighting the dependence on initialization. KMeans++ can be a less random alternative.
+  * The "elbow method" on the SSE plot identified 4 as the optimal number of clusters for the generated data.
+  * Higher standard deviation spread the clusters but didn't affect the number of clusters identified by K-Means.
+  * Different random state values led to slightly different clustering solutions, highlighting the dependence on initialization. KMeans++ can be a less random alternative.
 
 * **Hierarchical Clustering**:
-Max-linkage clustering produced the most biologically sensible hierarchy for the vertebrate data, considering class and feature relationships.
+  * Max-linkage clustering produced the most biologically sensible hierarchy for the vertebrate data, considering class and feature relationships.
 
 * **DBSCAN Clustering**:
-Parameters significantly impacted cluster formation. A balanced combination of eps and min_samples is crucial for effective noise handling and cluster identification.
+  * Parameters significantly impacted cluster formation. A balanced combination of eps and min_samples is crucial for effective noise handling and cluster identification.
 
 ### Fifth Assignment - Apriori Algorithm
 **Objective and description**:
-This assignment explores the Apriori algorithm, a powerful tool for discovering frequent itemsets and association rules in transactional datasets. By analyzing these patterns, we can gain valuable insights into customer behavior, market trends, and other hidden relationships within the data.
+Explore the Apriori algorithm to discover frequent itemsets and association rules in transactional datasets, gaining insights into customer behavior and market trends.
 
 #### Result Summary
+The findings were to use Apriori to find patterns (frequent itemsets) in data (T10I4D100K, Mushroom) and then use those patterns to make rules. Lower thresholds find more patterns but take longer. Identified trends like Team A's higher likelihood of winning at home against Team C than Team B.
 
-The findings were to use Apriori to find patterns (frequent itemsets) in data (T10I4D100K, Mushroom) and then use those patterns to make rules (Team A wins). Lower thresholds find more patterns but take longer. Team A wins more against Team C and is more likely to win at home against Team C than B.
+## Signal and Image Processing
+For this course, various labs were completed as assignments. The MATLAB scripts associated with each lab provide detailed information on the specific tasks and methodologies.
 
-## Signal and Image Processing 
-For this course, different labs for done as assignments. When looking at the matlab scripts, one will know the different tasks that were asked. 
-
-Labs were about the following topics: 
+### Labs Overview
+The labs covered the following topics:
 * Image Analysis
 * Fourier
 * Convolution and Filters
@@ -153,4 +133,5 @@ Labs were about the following topics:
 * Debauchies
 * Shrinkage
 
-  
+#### Result Summary
+Each lab focused on a different aspect of signal and image processing, allowing for a comprehensive understanding of theoretical concepts and practical applications. The MATLAB scripts contain the implementations and results for each topic.
