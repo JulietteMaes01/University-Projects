@@ -3,7 +3,7 @@ Here are all the different projects that I completed during my Bachelor’s and 
 
 ## Advanced Concepts of Machine Learning
 
-### First Assignment - Backpropagation
+### 1 - Backpropagation
 **Objective**:
 Implement a custom Neural Network without relying on high-level libraries to understand the fundamentals of backpropagation.
 
@@ -18,7 +18,7 @@ Our experiments involved varying learning rates (alpha values) and different ini
 * **Accuracy**: Achieved 100% accuracy with a low test loss of 0.0018.
 * **Output**: Model successfully reproduced exact input values, confirming its learning and generalization capabilities.
 
-### Second Assignment - Convolutional Autoencoders
+### 2 - Convolutional Autoencoders
 **Objective**:
 Build an Autoencoder (AE) using deep learning techniques to work with the CIFAR-10 dataset. The tasks involved reconstructing input images and performing colorization.
 
@@ -34,7 +34,7 @@ We trained some of the models with different values for stride (1 and 2). Our hy
 
 ## Computer Vision
 
-### First Assignment - Image Segmentation
+### 1 - Image Segmentation
 **Objective**:
 Develop an image segmentation application using the Mean Shift algorithm.
 
@@ -50,7 +50,7 @@ The assignment showcased the importance of parameter selection and optimization 
 * Analysis of segmented images provided insights into the impact of radius, threshold, and feature types on segmentation results.
 * Comparison between 3D and 5D feature vectors highlighted differences in segmentation performance and computational requirements.
 
-### Second Assignment - Deep Learning for Emotions Recognition
+### 2 - Deep Learning for Emotions Recognition
 **Objective**:
 Develop a Convolutional Neural Network (CNN) model to classify emotions from facial expressions in images.
 
@@ -62,7 +62,7 @@ We explored various CNN architectures and hyperparameter configurations, achievi
 
 ## Data Mining
 
-### First Assignment - Regression
+### 1 - Regression
 **Objective**:
 Equip students with practical skills in analyzing and interpreting linear regression models, building and evaluating regression models, and employing data visualization techniques.
 
@@ -83,7 +83,7 @@ This assignment delves into regression analysis through a series of practical ex
   * LASSO models initially underperformed due to feature selection (setting coefficients to zero).
   * Tuning the alpha parameter improved performance for both linear and quadratic models.
 
-### Third Assignment - Caravan-Insurance Problem
+### 3 - Caravan-Insurance Problem
 **Objective**:
 Assist a Dutch insurance company in targeting potential customers for caravan insurance through direct mail campaigns.
 
@@ -94,7 +94,7 @@ Assist a Dutch insurance company in targeting potential customers for caravan in
 #### Result Summary
 Analyzed caravan insurance data to identify ideal customers for direct mail campaigns. Built models to predict unlikely non-owners, finding key features like "Number of boat policies." Identified top 800 leads with the lowest probability of NOT being interested in caravan insurance.
 
-### Fourth Assignment - Clustering
+### 4 - Clustering
 **Objective**:
 Explore K-Means and hierarchical clustering algorithms for data analysis, focusing on cluster formation, visualization techniques, and evaluation metrics.
 
@@ -113,7 +113,7 @@ The tasks involved generating data, analyzing cluster formation with K-Means, in
 * **DBSCAN Clustering**:
   * Parameters significantly impacted cluster formation. A balanced combination of eps and min_samples is crucial for effective noise handling and cluster identification.
 
-### Fifth Assignment - Apriori Algorithm
+### 5 - Apriori Algorithm
 **Objective and description**:
 Explore the Apriori algorithm to discover frequent itemsets and association rules in transactional datasets, gaining insights into customer behavior and market trends.
 
