@@ -59,7 +59,7 @@ The assignment showcased the importance of parameter selection and optimization 
 * Comparison between 3D and 5D feature vectors highlighted differences in segmentation performance and computational requirements.
 
 **Code**:
-[🔗 Dive into the Image Segmentation Code!](Assignment 1 - CV-FINAL.ipynb)
+[🔗 Dive into the Image Segmentation Code!](Assignment_1_-_CV-FINAL.ipynb)
 
 
 ### 2 - Deep Learning for Emotions Recognition
