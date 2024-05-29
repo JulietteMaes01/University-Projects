@@ -59,7 +59,7 @@ The assignment showcased the importance of parameter selection and optimization 
 * Comparison between 3D and 5D feature vectors highlighted differences in segmentation performance and computational requirements.
 
 **Code**:
-[🔗 Dive into the Image Segmentation Code!](Assignment_1_-_CV-FINAL.ipynb)
+[🔗 Dive into the Image Segmentation Code!](Assignment 1 - CV-FINAL.ipynb)
 
 
 ### 2 - Deep Learning for Emotions Recognition
@@ -100,8 +100,7 @@ This assignment delves into regression analysis through a series of practical ex
   * Tuning the alpha parameter improved performance for both linear and quadratic models.
  
 **Code**:
-[🔗 Dive into the Regression Code!](DM_-_LAB_1.ipynb)
-
+[🔗 Explore the Regression Lab Notebook!](Data_Mining/DM%20-%20LAB%201.ipynb)
 
 ### 3 - Caravan-Insurance Problem
 **Objective**:
