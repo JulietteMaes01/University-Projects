@@ -19,7 +19,7 @@ Our experiments involved varying learning rates (alpha values) and different ini
 * **Output**: Model successfully reproduced exact input values, confirming its learning and generalization capabilities.
 
 **Code**:
-[🔗 Dive into the Backpropagation Code!](Advanced_Concepts_of_ML/backpropagation.py)
+[🔗 Check out the Backpropagation Code!](ACML1_Backpropagation_Assignment.ipynb)
 
 ### 2 - Convolutional Autoencoders
 **Objective**:
@@ -34,9 +34,10 @@ We trained some of the models with different values for stride (1 and 2). Our hy
 * Example:
   * Stride=1, Test loss = 0.0054
   * Stride=2, Test loss = 0.0445
-
+ 
 **Code**:
-[🔗 Check out the Convolutional Autoencoders Code!](Advanced_Concepts_of_ML/Convolutional_Autoencoders.ipynb)
+[🔗 Explore the Convolutional Autoencoders Code!](ACML_Assignment_2.ipynb)
+
 
 ## Computer Vision
 
@@ -57,7 +58,8 @@ The assignment showcased the importance of parameter selection and optimization 
 * Comparison between 3D and 5D feature vectors highlighted differences in segmentation performance and computational requirements.
 
 **Code**:
-[🔗 Explore the Image Segmentation Project!](Computer_Vision/Assignment%201%20-%20CV-FINAL.ipynb)
+[🔗 Delve into the Image Segmentation Code!](Assignment%201%20-%20CV-FINAL.ipynb)
+
 
 ### 2 - Deep Learning for Emotions Recognition
 **Objective**:
@@ -70,7 +72,8 @@ This assignment involved building a CNN architecture to analyze facial features 
 We explored various CNN architectures and hyperparameter configurations, achieving an accuracy of 57% (ADAM) and 58% (SGD) on unseen data. The models showed promise in recognizing emotions from real-life videos, highlighting their potential for real-world applications.
 
 **Code**:
-[🔗 Discover the Emotions Recognition Code!](Computer_Vision/Assignment2_Deep_Learning.ipynb)
+[🔗 Discover the Deep Learning for Emotions Recognition Code!](Assignment2_Deep_Learning.ipynb)
+
 
 ## Data Mining
 
@@ -94,9 +97,9 @@ This assignment delves into regression analysis through a series of practical ex
 * **LASSO Regression**:
   * LASSO models initially underperformed due to feature selection (setting coefficients to zero).
   * Tuning the alpha parameter improved performance for both linear and quadratic models.
-
+ 
 **Code**:
-[🔗 Explore the Regression Lab Notebook!](Data_Mining/DM%20-%20LAB%201.ipynb)
+[🔗 Explore the Regression Lab Notebook!](DM%20-%20LAB%201.ipynb)
 
 ### 3 - Caravan-Insurance Problem
 **Objective**:
@@ -110,7 +113,8 @@ Assist a Dutch insurance company in targeting potential customers for caravan in
 Analyzed caravan insurance data to identify ideal customers for direct mail campaigns. Built models to predict unlikely non-owners, finding key features like "Number of boat policies." Identified top 800 leads with the lowest probability of NOT being interested in caravan insurance.
 
 **Code**:
-[🔗 Check out the Caravan Insurance Problem Code!](Data_Mining/DM%20-%20LAB%203.ipynb)
+[🔗 Dive into the Caravan Insurance Problem Code!](DM%20-%20LAB3.ipynb)
+
 
 ### 4 - Clustering
 **Objective**:
@@ -130,9 +134,10 @@ The tasks involved generating data, analyzing cluster formation with K-Means, in
 
 * **DBSCAN Clustering**:
   * Parameters significantly impacted cluster formation. A balanced combination of eps and min_samples is crucial for effective noise handling and cluster identification.
-
+ 
 **Code**:
-[🔗 Discover the Clustering Project Code!](Data_Mining/DM%20-%20LAB%204%20IMPROVED%20EFFICIENCY.ipynb)
+[🔗 Dive into the Clustering Code!](DM%20-%20LAB4%20IMPROVED%20EFFICIENCY.ipynb)
+
 
 ### 5 - Apriori Algorithm
 **Objective and description**:
@@ -142,20 +147,22 @@ Explore the Apriori algorithm to discover frequent itemsets and association rule
 The findings were to use Apriori to find patterns (frequent itemsets) in data (T10I4D100K, Mushroom) and then use those patterns to make rules. Lower thresholds find more patterns but take longer. Identified trends like Team A's higher likelihood of winning at home against Team C than Team B.
 
 **Code**:
-[🔗 Check out the Apriori Algorithm Code!](Data_Mining/DM%20-%20LAB%205.ipynb)
+[🔗 Explore the Apriori Algorithm testing Code!](DM%20-%20LAB5.ipynb)
+
+
 
 ## Signal and Image Processing
 For this course, various labs were completed as assignments. The MATLAB scripts associated with each lab provide detailed information on the specific tasks and methodologies.
 
 ### Labs Overview
 The labs covered the following topics:
-* [Image Analysis](Signal_and_Image_Processing/TemplateLab1_imageanalysis.mlx)
-* [Fourier](Signal_and_Image_Processing/LAB2-Fourier.m)
-* [Convolution and Filters](Signal_and_Image_Processing/TemplateLab3_Convandfilter.mlx)
-* [Haar](Signal_and_Image_Processing/TemplateLab4_Haar.mlx)
-* [Principal Component Analysis](Signal_and_Image_Processing/LAB5-PCA.mlx)
-* [Debauchies](Signal_and_Image_Processing/TemplateLab6_Debauchies.mlx)
-* [Shrinkage](Signal_and_Image_Processing/TemplateLab7_shrinkage.mlx)
+* [Image Analysis](TemplateLab1_imageanalysis.mlx)
+* [Fourier](LAB2-Fourier.m)
+* [Convolution and Filters](TemplateLab3_Convandfilter.mlx)
+* [Haar](TemplateLab4_Haar.mlx)
+* [Principal Component Analysis](LAB5-PCA.mlx)
+* [Debauchies](TemplateLab6_Debauchies.mlx)
+* [Shrinkage](TemplateLab7_shrinkage.mlx)
 
 #### Result Summary
 Each lab focused on a different aspect of signal and image processing, allowing for a comprehensive understanding of theoretical concepts and practical applications. The MATLAB scripts contain the implementations and results for each topic.
