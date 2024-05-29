@@ -156,7 +156,7 @@ For this course, various labs were completed as assignments. The MATLAB scripts 
 
 ### Labs Overview
 The labs covered the following topics:
-* [Image Analysis](TemplateLab1_imageanalysis.mlx)
+* [Image Analysis](all%20lab%20codes\TemplateLab1_imageanalysis.mlx)
 * [Fourier](LAB2-Fourier.m)
 * [Convolution and Filters](TemplateLab3_Convandfilter.mlx)
 * [Haar](TemplateLab4_Haar.mlx)
