@@ -18,6 +18,10 @@ Our experiments involved varying learning rates (alpha values) and different ini
 * **Accuracy**: Achieved 100% accuracy with a low test loss of 0.0018.
 * **Output**: Model successfully reproduced exact input values, confirming its learning and generalization capabilities.
 
+
+**Code**:
+[View the code for the backpropagation assignment](ACML1_Backpropagation_Assignment.ipynb)
+
 ### 2 - Convolutional Autoencoders
 **Objective**:
 Build an Autoencoder (AE) using deep learning techniques to work with the CIFAR-10 dataset. The tasks involved reconstructing input images and performing colorization.
