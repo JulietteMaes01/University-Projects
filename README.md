@@ -157,12 +157,12 @@ For this course, various labs were completed as assignments. The MATLAB scripts 
 ### Labs Overview
 The labs covered the following topics:
 * [Image Analysis](all%20lab%20codes/TemplateLab1_imageanalysis.mlx)
-* [Fourier](LAB2-Fourier.m)
-* [Convolution and Filters](TemplateLab3_Convandfilter.mlx)
-* [Haar](TemplateLab4_Haar.mlx)
-* [Principal Component Analysis](LAB5-PCA.mlx)
-* [Debauchies](TemplateLab6_Debauchies.mlx)
-* [Shrinkage](TemplateLab7_shrinkage.mlx)
+* [Fourier](all%20lab%20codes/LAB2-Fourier.m)
+* [Convolution and Filters](all%20lab%20codes/TemplateLab3_Convandfilter.mlx)
+* [Haar](all%20lab%20codes/TemplateLab4_Haar.mlx)
+* [Principal Component Analysis](all%20lab%20codes/LAB5-PCA.mlx)
+* [Debauchies](all%20lab%20codes/TemplateLab6_Debauchies.mlx)
+* [Shrinkage](all%20lab%20codes/TemplateLab7_shrinkage.mlx)
 
 #### Result Summary
 Each lab focused on a different aspect of signal and image processing, allowing for a comprehensive understanding of theoretical concepts and practical applications. The MATLAB scripts contain the implementations and results for each topic.
