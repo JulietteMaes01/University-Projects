@@ -38,7 +38,7 @@ This repository contains a collection of projects completed during my Bachelor's
 - **Accuracy**: Achieved 100% accuracy with a low test loss of 0.0018.
 - **Output**: Model successfully reproduced exact input values, confirming its learning and generalization capabilities.
 
-**Code**: [🔗 Check out the Backpropagation Code!](ACML1_Backpropagation_Assignment.ipynb)
+**Code**: [🔗 Check out the Backpropagation Code!](MasterProjects/ACML/ACML1_Backpropagation_Assignment.ipynb)
 
 #### 2. Convolutional Autoencoders
 **Objective**: Build an Autoencoder (AE) using deep learning techniques to work with the CIFAR-10 dataset. The tasks involved reconstructing input images and performing colorization.
@@ -51,7 +51,7 @@ This repository contains a collection of projects completed during my Bachelor's
   - Stride=1, Test loss = 0.0054
   - Stride=2, Test loss = 0.0445
 
-**Code**: [🔗 Explore the Convolutional Autoencoders Code!](ACML_Assignment_2.ipynb)
+**Code**: [🔗 Explore the Convolutional Autoencoders Code!](MasterProjects/ACML/ACML_Assignment_2.ipynb)
 
 ### Computer Vision
 
@@ -68,7 +68,7 @@ This repository contains a collection of projects completed during my Bachelor's
 - Analysis of segmented images provided insights into the impact of radius, threshold, and feature types on segmentation results.
 - Comparison between 3D and 5D feature vectors highlighted differences in segmentation performance and computational requirements.
 
-**Code**: [🔗 Delve into the Image Segmentation Code!](Assignment%201%20-%20CV-FINAL.ipynb)
+**Code**: [🔗 Delve into the Image Segmentation Code!](MasterProjects/CV/Assignment%201%20-%20CV-FINAL.ipynb)
 
 #### 2. Deep Learning for Emotions Recognition
 **Objective**: Develop a Convolutional Neural Network (CNN) model to classify emotions from facial expressions in images.
@@ -77,7 +77,7 @@ This repository contains a collection of projects completed during my Bachelor's
 
 **Result Summary**: We explored various CNN architectures and hyperparameter configurations, achieving an accuracy of 57% (ADAM) and 58% (SGD) on unseen data. The models showed promise in recognizing emotions from real-life videos, highlighting their potential for real-world applications.
 
-**Code**: [🔗 Discover the Deep Learning for Emotions Recognition Code!](Assignment2_Deep_Learning.ipynb)
+**Code**: [🔗 Discover the Deep Learning for Emotions Recognition Code!](MasterProjects/CV/Assignment2_Deep_Learning.ipynb)
 
 ### Data Mining
 
@@ -98,7 +98,7 @@ This repository contains a collection of projects completed during my Bachelor's
   - LASSO models initially underperformed due to feature selection (setting coefficients to zero).
   - Tuning the alpha parameter improved performance for both linear and quadratic models.
 
-**Code**: [🔗 Explore the Regression Lab Notebook!](DM%20-%20LAB%201.ipynb)
+**Code**: [🔗 Explore the Regression Lab Notebook!](MasterProjects/DM/DM%20-%20LAB%201.ipynb)
 
 #### 2. Caravan-Insurance Problem
 **Objective**: Assist a Dutch insurance company in targeting potential customers for caravan insurance through direct mail campaigns.
@@ -109,7 +109,7 @@ This repository contains a collection of projects completed during my Bachelor's
 
 **Result Summary**: Analyzed caravan insurance data to identify ideal customers for direct mail campaigns. Built models to predict unlikely non-owners, finding key features like "Number of boat policies." Identified top 800 leads with the lowest probability of NOT being interested in caravan insurance.
 
-**Code**: [🔗 Dive into the Caravan Insurance Problem Code!](DM%20-%20LAB3.ipynb)
+**Code**: [🔗 Dive into the Caravan Insurance Problem Code!](MasterProjects/DM/DM%20-%20LAB3.ipynb)
 
 #### 3. Clustering
 **Objective**: Explore K-Means and hierarchical clustering algorithms for data analysis, focusing on cluster formation, visualization techniques, and evaluation metrics.
@@ -126,14 +126,14 @@ This repository contains a collection of projects completed during my Bachelor's
 - **DBSCAN Clustering**:
   - Parameters significantly impacted cluster formation. A balanced combination of eps and min_samples is crucial for effective noise handling and cluster identification.
 
-**Code**: [🔗 Dive into the Clustering Code!](DM%20-%20LAB4%20IMPROVED%20EFFICIENCY.ipynb)
+**Code**: [🔗 Dive into the Clustering Code!](MasterProjects/DM/DM%20-%20LAB4%20IMPROVED%20EFFICIENCY.ipynb)
 
 #### 4. Apriori Algorithm
 **Objective and Description**: Explore the Apriori algorithm to discover frequent itemsets and association rules in transactional datasets, gaining insights into customer behavior and market trends.
 
 **Result Summary**: The findings were to use Apriori to find patterns (frequent itemsets) in data (T10I4D100K, Mushroom) and then use those patterns to make rules. Lower thresholds find more patterns but take longer. Identified trends like Team A's higher likelihood of winning at home against Team C than Team B.
 
-**Code**: [🔗 Explore the Apriori Algorithm Testing Code!](DM%20-%20LAB5.ipynb)
+**Code**: [🔗 Explore the Apriori Algorithm Testing Code!](MasterProjects/DM/DM%20-%20LAB5.ipynb)
 
 ### Signal and Image Processing
 
