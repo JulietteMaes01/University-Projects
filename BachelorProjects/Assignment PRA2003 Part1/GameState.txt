@@ -1,0 +1,11 @@
+1
+. . 1 @ . 2 . .
+. . 1 # . 1 . .
+. . 1 . . . . .
+. . . 1 1 . 1 .
+. . . . . . . .
+Score: 3
+Robots: 8
+Teleports: 2
+[NoBLAST]
+Status: Active
