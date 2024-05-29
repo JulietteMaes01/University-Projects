@@ -115,7 +115,7 @@ Assist a Dutch insurance company in targeting potential customers for caravan in
 Analyzed caravan insurance data to identify ideal customers for direct mail campaigns. Built models to predict unlikely non-owners, finding key features like "Number of boat policies." Identified top 800 leads with the lowest probability of NOT being interested in caravan insurance.
 
 **Code**:
-[🔗 Dive into the Caravan Insurance Problem Code!](DM - LAB3.ipynb)
+[🔗 Dive into the Caravan Insurance Problem Code!](DM_-_LAB3.ipynb)
 
 
 ### 4 - Clustering
@@ -138,7 +138,7 @@ The tasks involved generating data, analyzing cluster formation with K-Means, in
   * Parameters significantly impacted cluster formation. A balanced combination of eps and min_samples is crucial for effective noise handling and cluster identification.
  
 **Code**:
-[🔗 Dive into the Clustering Code!](DM - LAB4 IMPROVED EFFICIENCY.ipynb)
+[🔗 Dive into the Clustering Code!](DM_-_LAB4_IMPROVED_EFFICIENCY.ipynb)
 
 
 ### 5 - Apriori Algorithm
@@ -149,7 +149,7 @@ Explore the Apriori algorithm to discover frequent itemsets and association rule
 The findings were to use Apriori to find patterns (frequent itemsets) in data (T10I4D100K, Mushroom) and then use those patterns to make rules. Lower thresholds find more patterns but take longer. Identified trends like Team A's higher likelihood of winning at home against Team C than Team B.
 
 **Code**:
-[🔗 Dive into the Apriori Algorithm testing Code!](DM - LAB5.ipynb)
+[🔗 Dive into the Apriori Algorithm testing Code!](DM_-_LAB5.ipynb)
 
 
 
