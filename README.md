@@ -68,7 +68,7 @@ This repository contains a collection of projects completed during my Bachelor's
 - Analysis of segmented images provided insights into the impact of radius, threshold, and feature types on segmentation results.
 - Comparison between 3D and 5D feature vectors highlighted differences in segmentation performance and computational requirements.
 
-**Code**: [🔗 Delve into the Image Segmentation Code!](MasterProjects/CV/Assignment%201%20-%20CV-FINAL.ipynb)
+**Code**: [🔗 Delve into the Image Segmentation Code!](MasterProjects/CV/Assignent%201%20-%20CV-FINAL.ipynb)
 
 #### 2. Deep Learning for Emotions Recognition
 **Objective**: Develop a Convolutional Neural Network (CNN) model to classify emotions from facial expressions in images.
