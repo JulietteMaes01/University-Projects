@@ -100,7 +100,7 @@ This assignment delves into regression analysis through a series of practical ex
   * Tuning the alpha parameter improved performance for both linear and quadratic models.
  
 **Code**:
-[🔗 Dive into the Regression Code!](DM - LAB 1.ipynb)
+[🔗 Dive into the Regression Code!](DM_-_LAB_1.ipynb)
 
 
 ### 3 - Caravan-Insurance Problem
