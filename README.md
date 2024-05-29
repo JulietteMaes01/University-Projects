@@ -141,11 +141,11 @@ For this course, various labs were completed as assignments. The MATLAB scripts 
 
 #### Labs Overview
 The labs covered the following topics:
-- [Image Analysis](all%20lab%20codes/TemplateLab1_imageanalysis.mlx)
-- [Fourier Analysis](all%20lab%20codes/LAB2-Fourier.m)
-- [Convolution and Filtering](all%20lab%20codes/TemplateLab3_Convandfilter.mlx)
-- [Time Frequency Representation and Haar Wavelets](all%20lab%20codes/TemplateLab4_Haar.mlx)
-- [Principal Component Analysis](all%20lab%20codes/LAB5-PCA.mlx)
+- [Image Analysis](MasterProjects/SIP/TemplateLab1_imageanalysis.mlx)
+- [Fourier Analysis](MasterProjects/SIP/LAB2-Fourier.m)
+- [Convolution and Filtering](MasterProjects/SIP/TemplateLab3_Convandfilter.mlx)
+- [Time Frequency Representation and Haar Wavelets](MasterProjects/SIP/TemplateLab4_Haar.mlx)
+- [Principal Component Analysis](MasterProjects/SIP/LAB5-PCA.mlx)
 - [Debauchies Wavelets](all%20lab%20codes/TemplateLab6_Debauchies.mlx)
 - [Wavelet Shrinkage](all%20lab%20codes/TemplateLab7_shrinkage.mlx)
 
