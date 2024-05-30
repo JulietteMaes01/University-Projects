@@ -158,7 +158,7 @@ The labs covered the following topics:
 - [Convolution and Filtering](MasterProjects/SIP/TemplateLab3_Convandfilter.mlx)
 - [Time Frequency Representation and Haar Wavelets](MasterProjects/SIP/TemplateLab4_Haar.mlx)
 - [Principal Component Analysis](MasterProjects/SIP/LAB5-PCA.mlx)
-- [Debauchies Wavelets](all%20lab%20codes/TemplateLab6_Debauchies.mlx)
-- [Wavelet Shrinkage](all%20lab%20codes/TemplateLab7_shrinkage.mlx)
+- [Debauchies Wavelets](MasterProjects/SIP/TemplateLab6_Debauchies.mlx)
+- [Wavelet Shrinkage](MasterProjects/SIP/TemplateLab7_shrinkage.mlx)
 
 **Result Summary**: Each lab focused on a different aspect of signal and image processing, allowing for a comprehensive understanding of theoretical concepts and practical applications. The MATLAB scripts contain the implementations and results for each topic.
