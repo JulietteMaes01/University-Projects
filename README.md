@@ -11,7 +11,7 @@ This repository contains a collection of projects completed during my Bachelor's
 
 **Result Summary**: The game featured basic graphics, user controls, and a scoring system. It provided a hands-on experience in software development and debugging, reinforcing programming logic and problem-solving skills.
 
-**Code**: [🔗 Check out the Game Development Code!](path_to_your_game_code_repo)
+**Code**: [🔗 Check out the Game Development Code!](BachelorProjects/Assignment%20PRA2003%20Part1)
 
 ### 2. Formula 1 Predictions using Machine Learning
 **Objective**: Predict Formula 1 race outcomes using machine learning algorithms.
