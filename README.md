@@ -24,6 +24,18 @@ This repository contains a collection of projects completed during my Bachelor's
 
 ## Master's Projects
 
+### Research Project: 
+#### Singular Spectrum Decomposition for Predictive Maintenance
+**Objective**: Develop a methodology using Singular Spectrum Decomposition (SSD) to perform predictive maintenance on industrial machinery.
+
+**Description**: This project aimed to leverage the SSD technique to analyze time series data from machinery. The objective was to predict failures and maintenance needs before they occur, ensuring smoother operation and reducing downtime.
+
+**Goal**: By applying SSD, we were able to decompose the time series data into various components, identifying trends and periodicities. This allowed for more accurate predictions of machine failures and the scheduling of maintenance activities.
+
+**Result**: Still under investigation
+
+**Code**: [🔗 Check out the Singular Spectrum Decomposition Project!](https://github.com/Aurelien-Bertrand/ssd_for_predictive_maintenance.git)
+
 ### Advanced Concepts of Machine Learning
 
 #### 1. Backpropagation
